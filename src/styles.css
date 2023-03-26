@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.folder_wrapper {
+  width: 14rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px grey solid;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  margin-top: 0.1rem;
+}
+
+input {
+  padding: 0 2px;
+}
+
+.file_wrapper {
+  width: 14rem;
+  /* cursor: pointer; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px grey solid;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  margin-top: 0.1rem;
+}
+
+.edit_input {
+  width: 4.5rem;
+}
+
+button {
+  padding: 0;
+  margin-right: 0.2rem;
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "name": "root",
+  "isFolder": true,
+  "items": [
+    {
+      "id": 2,
+      "name": "f1",
+      "isFolder": true,
+      "items": [
+        {
+          "id": 3,
+          "name": "data.txt",
+          "isFolder": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "data1.txt",
+      "isFolder": false
+    }
+  ]
+}

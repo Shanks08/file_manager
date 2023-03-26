@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
+import obj from './exp.json';
+import Folder from './Component/Folder';
 
-function App() {
+export default function App() {
+  // console.log(root);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Folder folder={obj} root={obj} par={null} />
     </div>
   );
 }
-
-export default App;
